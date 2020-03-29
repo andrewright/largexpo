@@ -1,8 +1,14 @@
 .main-footer {
-	height: 120px;
+	height: 245px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	color: #fff;
+	color: #6f7273;
+	background: #222;
+	padding: 40px 0 !important;
+
+	.border-top-dotted {
+		border-top: 1px dashed #6f7273 !important;
+	}
 }

@@ -1,16 +1,48 @@
 @import "custom";
+
 .App {
+	h1, h2, h3, h4, h5, h6 {
+		text-transform: uppercase;
+	}
+
+	h3 {
+		letter-spacing: 2px;
+		font-size: 24px;
+	}
+
 	text-align: center;
 	min-height: 100vh;
-	padding-bottom: 120px;
+	padding-bottom: 245px;
 	position: relative;
+
 	.main-nav {
 		text-transform: uppercase;
 		font-weight: 500;
 		font-size: 13px;
 		color: white;
-	}
-	.bg-settings {
+		background-color: rgba(10, 10, 10, .5);
+		transition: all .5s ease-out;
+		.logo {
+			height: 60px;
+			transition: all .5s ease-out;
+		}
 
+		&.scrolled {
+			background-color: rgba(10, 10, 10, 1);
+			.logo {
+				height:40px;
+			}
+		}
+	}
+
+	.common-bg-settings {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
 	}
 }

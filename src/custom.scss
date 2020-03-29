@@ -12,44 +12,25 @@ body {
 }
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
-
-/*
-Light 300
-Light 300 italic
-Regular 400
-Regular 400 italic
-Medium 500
-Medium 500 italic
-Semi-bold 600
-Semi-bold 600 italic
-Bold 700
-Bold 700 italic
-Black 900
-Black 900 italic
-*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 /* make the customizations */
-$color1: #302D33;
-$color2: #E53B2A;
-$color3: #47686A;
-$color4: #8BA4A6;
-$color5: #E8DCC7;
 
-$body-bg: $color1;
+$body-bg: #fff;
 $theme-colors: (
-	"primary": $color2,
+	//"primary": $color2,
 	//"secondary": $secondary,
 	//"success": $success,
-	"info": tomato,
+	//"info": tomato,
 	//"warning": $warning,
 	//"danger": teal,
 	//"light": $light,
-	"dark": $color1
+	//"dark": $color1
 );
 
-$font-family-base: 'Fira Sans', sans-serif;
-$headings-font-weight: 500;
-$body-color: $color5;
+$font-family-base: 'Source Sans Pro', sans-serif;
+$font-weight-base: 400;
+$headings-font-weight: 400;
+$body-color: #fff;
 
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";

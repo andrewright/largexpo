@@ -1,41 +1,15 @@
 import React from 'react';
-import { Card, CardDeck, Col, Container, Nav, Row, Tab } from "react-bootstrap";
-import Notes from './notes.jpg';
-import Piggy from './piggy.jpg';
-import Travel from './travel.jpg';
+import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import './outbenefits.scss';
 
 function OurBenefits() {
 	return (
-		<div className='out-benefits'>
-			<CardDeck className='out-benefits-cards pb-4'>
-				<Card className='out-benefits-cards-item'>
-					<Card.Img variant="top" src={Notes} />
-					<Card.Body>
-						<Card.Title>24/7 support</Card.Title>
-						<Card.Text>We sell all sorts of raw fish products, including fish fillets, steaks, salty, smoked and dried fish.</Card.Text>
-					</Card.Body>
-				</Card>
-				<Card>
-					<Card.Img variant="top" src={Piggy} />
-					<Card.Body>
-						<Card.Title>Accumulation</Card.Title>
-						<Card.Text>These include many different sorts of delicious caviar, shrimps, crab sticks and sea cabbage.</Card.Text>
-					</Card.Body>
-				</Card>
-				<Card>
-					<Card.Img variant="top" src={Travel} />
-					<Card.Body>
-						<Card.Title>Insured traveling</Card.Title>
-						<Card.Text>Fish and seafood that does’nt make it onto your table, can be used to produce feeds for cattle, your favourite pets, or other (aquarium) fish.</Card.Text>
-					</Card.Body>
-				</Card>
-			</CardDeck>
+		<div className='our-benefits' id='OurBenefits'>
 			<Container className='py-5'>
 				<Row>
 					<Col>
-						<h1>Our benefits</h1>
-						<p>Our decade-and-a-half spent in the field of fish and sea product wholesale has allowed us to study the market and come up with a series of unique solutions to its most common (and also its less-known) problems. That’s the reason we can proudly claim that Oceanic Fisheries N.B. provides the following benefits for its partners:</p>
+						<h3>Our benefits</h3>
+						<p className='pt-4'>Our decade-and-a-half spent in the field of fish and sea product wholesale has allowed us to study the market and come up with a series of unique solutions to its most common (and also its less-known) problems. That’s the reason we can proudly claim that Oceanic Fisheries N.B. provides the following benefits for its partners:</p>
 					</Col>
 				</Row>
 			</Container>
@@ -45,31 +19,31 @@ function OurBenefits() {
 						<Tab.Container id='left-tabs-example' defaultActiveKey='tab-1'>
 							<Row className='mb-4'>
 								<Col>
-									<Nav variant='pills' className="justify-content-between" >
+									<Nav variant='pills' className="list-tabs">
 										<Nav.Item>
-											<Nav.Link eventKey='tab-1' className='tab-buttons'>Quality products</Nav.Link>
+											<Nav.Link eventKey='tab-1'>Quality products</Nav.Link>
 										</Nav.Item>
 										<Nav.Item>
-											<Nav.Link eventKey='tab-2' className='tab-buttons'>Wide product range</Nav.Link>
+											<Nav.Link eventKey='tab-2'>Wide product range</Nav.Link>
 										</Nav.Item>
 										<Nav.Item>
-											<Nav.Link eventKey='tab-3' className='tab-buttons'>High-end equipment</Nav.Link>
+											<Nav.Link eventKey='tab-3'>High-end equipment</Nav.Link>
 										</Nav.Item>
 										<Nav.Item>
-											<Nav.Link eventKey='tab-4' className='tab-buttons'>Qualified personnel</Nav.Link>
+											<Nav.Link eventKey='tab-4'>Qualified personnel</Nav.Link>
 										</Nav.Item>
 										<Nav.Item>
-											<Nav.Link eventKey='tab-5' className='tab-buttons'>Flexible pricing</Nav.Link>
+											<Nav.Link eventKey='tab-5'>Flexible pricing</Nav.Link>
 										</Nav.Item>
 										<Nav.Item>
-											<Nav.Link eventKey='tab-6' className='tab-buttons'>Rapid delivery</Nav.Link>
+											<Nav.Link eventKey='tab-6'>Rapid delivery</Nav.Link>
 										</Nav.Item>
 									</Nav>
 								</Col>
 							</Row>
 							<Row>
 								<Col>
-									<Tab.Content>
+									<Tab.Content className='text-left'>
 										<Tab.Pane eventKey='tab-1'>
 											<p>Сaught in the best and cleanest natural reservoirs around the world, our fish undergoes a thorough check for chemical and hormonal impurities and other pollutants: only the best fish gets into the packaging</p>
 										</Tab.Pane>

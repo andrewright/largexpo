@@ -1,19 +1,19 @@
 import React from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
-import logoFooter from './logo-footer.svg';
+import logoFooter from '../../logo.svg';
 import './Footer.scss';
 
 function Footer() {
 	return (
-		<div className='main-footer bg-dark py-3'>
-			<Container>
+		<div className='main-footer'>
+			<Container fluid>
 				<Row className='pb-2'>
-					<Col>
-						<img src={logoFooter} height='40px' alt='Logo Footer'/>
+					<Col className='pb-4'>
+						<img src={logoFooter} height='60px' alt='LARGEXPO'/>
 					</Col>
 				</Row>
-				<Row>
-					<Col className='border-top pt-2'>2020 © AlfaBank</Col>
+				<Row className='border-top-dotted pt-5'>
+					<Col>© COPYRIGHT 2020 LARGEXPO PTE. LTD</Col>
 				</Row>
 			</Container>
 		</div>

@@ -1,0 +1,50 @@
+.how-we-work  {
+	flex-direction: column!important;
+	justify-content: flex-end!important;
+
+	.text-part {
+		display: flex;
+		justify-content: center;
+		padding: 20vh 0;
+
+		p {
+			font-size: 26px !important;
+			font-weight: 300;
+			line-height: 36px;
+		}
+	}
+
+
+
+	.card-deck {
+		background: #fff;
+		color: #fff;
+		.card{
+			background: #E8DCC7;
+			min-height:360px;
+			padding-top: 30px;
+			border-radius: 0;
+			.card-body {
+				font-size: 18px;
+				padding: 15% 20%;
+			}
+
+			.card-title {
+				text-transform: uppercase;
+			}
+			.card-text {
+				font-weight: 400;
+			}
+
+			&:nth-child(1){
+				background:#a8babc;
+			}
+			&:nth-child(2){
+				background:#a0aa95;
+			}
+			&:nth-child(3){
+				background:#c5c2be;
+			}
+		}
+	}
+}

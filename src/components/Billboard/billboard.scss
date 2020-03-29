@@ -1,9 +1,19 @@
 .billboard {
 	background: url('./bg-billboard.jpg') no-repeat center;
-	background-size: cover;
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
+
+	&-title {
+		text-align: left;
+
+		&-sub {
+			font-size: 20px;
+			letter-spacing: 6px;
+			line-height: 30px
+		}
+
+		&-big {
+			font-size: 60px;
+			letter-spacing: 5px;
+			font-weight: 300;
+		}
+	}
 }
