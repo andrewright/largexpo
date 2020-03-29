@@ -1,40 +1,47 @@
 import React from 'react';
-import Header from './components/Header/Header'
-import Billboard from './components/Billboard/Billboard'
-import About from './components/About/About'
-import HowWeWork from './components/HowWeWork/HowWeWork'
-import OurBenefits from './components/OurBenefits/OurBenefits'
-import ContactUs from './components/ContactUs/ContactUs'
-import Footer from './components/Footer/Footer'
-import logo from './logo.svg';
-import './App.css';
+import Billboard from './components/Billboard/Billboard';
+import AboutUs from './components/AboutUs/AboutUs';
+import HowWeWork from './components/HowWeWork/HowWeWork';
+import OurBenefits from './components/OurBenefits/OurBenefits';
+import ContactUs from './components/ContactUs/ContactUs';
+import Footer from './components/Footer/Footer';
+import {Navbar, Nav, Container, Button} from 'react-bootstrap';
+import './App.scss';
+import logo from './alfa-logo.svg';
+
 
 function App() {
-  return (
-    <div className="App">
-      <Header></Header>
-      <Billboard></Billboard>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <About></About>
-      <HowWeWork></HowWeWork>
-      <ContactUs></ContactUs>
-      <OurBenefits></OurBenefits>
-      <Footer></Footer>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Navbar bg='dark' variant='dark' expand='lg' fixed='top' className='main-nav'>
+				<Container>
+					<Navbar.Brand href='/'>
+						<img src={logo} width='150px' alt='Alfa Logo'/>
+					</Navbar.Brand>
+					<Navbar.Toggle aria-controls='basic-navbar-nav'/>
+					<Navbar.Collapse>
+						<Nav>
+							<Nav.Link href='/'>Home</Nav.Link>
+							<Nav.Link>About us</Nav.Link>
+							<Nav.Link>How we work</Nav.Link>
+							<Nav.Link>Our products</Nav.Link>
+							<Nav.Link>Our Benefits</Nav.Link>
+							<Nav.Link>Contact us</Nav.Link>
+						</Nav>
+					</Navbar.Collapse>
+					<Nav.Item>
+						<Button size='sm'>Online bank</Button>
+					</Nav.Item>
+				</Container>
+			</Navbar>
+			<Billboard></Billboard>
+			<AboutUs></AboutUs>
+			<HowWeWork></HowWeWork>
+			<OurBenefits></OurBenefits>
+			<ContactUs></ContactUs>
+			<Footer></Footer>
+		</div>
+	);
 }
 
 export default App;

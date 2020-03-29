@@ -1,0 +1,15 @@
+.contact-us {
+	min-height: 100vh;
+	background: url('./bg-contact.jpg') no-repeat center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+
+	&-form {
+		box-shadow: 0 0 500px 50px black;
+		background: rgba(0, 0, 0, 0.7);
+		border: 1px solid rgba(0, 0, 0, 0.5);
+	}
+}

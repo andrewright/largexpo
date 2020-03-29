@@ -1,0 +1,55 @@
+/* The following block can be included in a custom.scss */
+/*
+body {
+  margin: 0; // 1
+  font-family: $font-family-base;
+  @include font-size($font-size-base);
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  color: $body-color;
+  text-align: left; // 3
+  background-color: $body-bg; // 2
+}
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+/*
+Light 300
+Light 300 italic
+Regular 400
+Regular 400 italic
+Medium 500
+Medium 500 italic
+Semi-bold 600
+Semi-bold 600 italic
+Bold 700
+Bold 700 italic
+Black 900
+Black 900 italic
+*/
+/* make the customizations */
+$color1: #302D33;
+$color2: #E53B2A;
+$color3: #47686A;
+$color4: #8BA4A6;
+$color5: #E8DCC7;
+
+$body-bg: $color1;
+$theme-colors: (
+	"primary": $color2,
+	//"secondary": $secondary,
+	//"success": $success,
+	"info": tomato,
+	//"warning": $warning,
+	//"danger": teal,
+	//"light": $light,
+	"dark": $color1
+);
+
+$font-family-base: 'Fira Sans', sans-serif;
+$headings-font-weight: 500;
+$body-color: $color5;
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

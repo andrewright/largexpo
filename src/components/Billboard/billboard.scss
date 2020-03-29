@@ -1,0 +1,9 @@
+.billboard {
+	background: url('./bg-billboard.jpg') no-repeat center;
+	background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
