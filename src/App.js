@@ -1,6 +1,4 @@
 import React from 'react';
-import { HashLink } from 'react-router-hash-link';
-
 import Billboard from './components/Billboard/Billboard';
 import AboutUs from './components/AboutUs/AboutUs';
 import HowWeWork from './components/HowWeWork/HowWeWork';
@@ -10,8 +8,10 @@ import Footer from './components/Footer/Footer';
 import {Navbar, Nav, Container} from 'react-bootstrap';
 import './App.scss';
 import logo from './logo.svg';
+/*
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faSignInAlt} from '@fortawesome/free-solid-svg-icons';
+*/
 
 class App extends React.Component {
 	state = {

@@ -18,7 +18,7 @@ function HowWeWork() {
 							<h1>How we work</h1>
 							<p className='pt-5'>Our production premises are equipped with high-tech modern equipment. Production
 								workshop for salted, smoked and dried fish has the capacity to manufacture and store a large volume of
-								product. Oceanic Fisheries N.B. uses high-quality raw materials, purchased directly from our trusted
+								product. LARGEXPO PTE. uses high-quality raw materials, purchased directly from our trusted
 								partner fisheries for manufacturing and trading:</p>
 						</Col>
 					</Row>

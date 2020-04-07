@@ -9,7 +9,7 @@ function OurBenefits() {
 				<Row>
 					<Col>
 						<h3>Our benefits</h3>
-						<p className='pt-4'>Our decade-and-a-half spent in the field of fish and sea product wholesale has allowed us to study the market and come up with a series of unique solutions to its most common (and also its less-known) problems. That’s the reason we can proudly claim that Oceanic Fisheries N.B. provides the following benefits for its partners:</p>
+						<p className='pt-4'>Our decade-and-a-half spent in the field of fish and sea product wholesale has allowed us to study the market and come up with a series of unique solutions to its most common (and also its less-known) problems. That’s the reason we can proudly claim that LARGEXPO PTE. provides the following benefits for its partners:</p>
 					</Col>
 				</Row>
 			</Container>
