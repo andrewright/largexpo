@@ -1,5 +1,7 @@
 @import "custom";
-
+html {
+	overflow-y: scroll;
+}
 .App {
 	h1, h2, h3, h4, h5, h6 {
 		text-transform: uppercase;
@@ -14,6 +16,10 @@
 	min-height: 100vh;
 	padding-bottom: 245px;
 	position: relative;
+
+	.Page {
+		padding-top: 100px;
+	}
 
 	.main-nav {
 		text-transform: uppercase;
