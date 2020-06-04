@@ -16,10 +16,21 @@
 	  <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#5bbad5">
 	  <meta name="msapplication-TileColor" content="#ffffff">
 	  <meta name="theme-color" content="#ffffff">
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+	  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168570078-1"></script>
+	  <script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-168570078-1');
+	  </script>
+
+	  <!--
+			manifest.json provides metadata used when your web app is installed on a
+			user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+		-->
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
